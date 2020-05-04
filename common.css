@@ -1,0 +1,192 @@
+ ```/* Common Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 110px;
+}
+
+.navbar-links-wrapper > .explore-wrapper h1 {
+    font-size: 1.1em;
+    color: #E5D300;
+    margin: 0px;
+    padding-left: 7px;
+}
+
+/* Logo Styles */
+.navbar-wrapper > .navbar-logo-wrapper > .navbar-logo {
+    -webkit-filter: invert(100%); /* Safari */
+    filter: invert(100%);
+    padding-right: 45px;
+}
+
+.navbar-wrapper > .navbar-logo-wrapper > .navbar-logo img {
+    width: 180px;
+}
+
+/* Link Styles */
+.navbar-wrapper > .navbar-links-wrapper > .links-wrapper {
+    display: flex;
+}
+
+.navbar-wrapper > .navbar-links-wrapper > .links-wrapper > .link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 0px 7px;
+}
+
+.navbar-wrapper > .navbar-links-wrapper > .links-wrapper > .spark-link a {
+    text-decoration: none;
+    color: #adadad;
+    font-weight: 900;
+    font-size: 1.2em;
+    padding-right: 12px;
+    padding-left: 25px;
+}
+
+.navbar-wrapper > .navbar-links-wrapper > .links-wrapper > .spark-link {
+    color: #adadad; 
+}
+
+.navbar-wrapper > .navbar-btn-wrapper .btn-wrapper {
+    color: white;
+    padding: 7px 5px;
+}
+
+.navbar-wrapper > .navbar-btn-wrapper .btn-wrapper a {
+    color: white;
+    text-decoration: none;
+    background-color: #52545E;
+    border-radius: 2px;
+    padding: 15px 18px;
+}
+
+.navbar-wrapper > .navbar-btn-wrapper .btn-wrapper a:nth-child(4) {
+    margin-left: 10px;
+}
+
+.navbar-wrapper > .navbar-btn-wrapper .btn-wrapper .fa-chevron-down {
+    padding-left: 5px;
+    color: #83E97E;
+}
+
+.navbar-wrapper > .navbar-btn-wrapper .btn-wrapper .fa-search {
+    padding: 15px;
+    color: #52545E;
+    font-size: 1.7em;
+    vertical-align: sub;
+}
+
+.content-wrapper {
+    background-color: #52545E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 750px;
+    padding-top: 60px;
+}
+
+.content-wrapper > .desc-text-wrapper {
+    margin-left: 40px;
+}
+
+.content-wrapper > .desc-text-wrapper > .desc-text {
+    color: #EEEEEE;
+    font-size: 2.5em;
+    font-weight: 200;
+    word-spacing: 2px;
+    display: grid;
+    grid-template-rows: 1fr 1fr .2fr;
+}
+
+.content-wrapper > .desc-text-wrapper > .desc-text b {
+    color: white;
+}
+
+.content-wrapper > .desc-text-wrapper > .content-btn-wrapper a:nth-child(1) {
+    background-color: #83E97E;
+    border-radius: 2px;
+    color: black;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    word-spacing: 2px;
+    padding: 12px 17px;
+    margin-right: 15px;
+}
+
+.content-wrapper > .desc-text-wrapper > .content-btn-wrapper a:nth-child(2) {
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    word-spacing: 2px;
+    padding: 12px 17px;
+}
+
+.content-wrapper > .projects-img-wrapper > .img-text-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+.content-wrapper > .projects-img-wrapper > .img-text-wrapper > .this-is {
+    color: white;
+    padding-left: 100px;
+}
+
+.content-wrapper > .projects-img-wrapper > .img-text-wrapper > .exc {
+    color: white;
+}
+
+.content-wrapper > .projects-img-wrapper > .img-text-wrapper > .codepen-projects {
+    padding-left: 5px;
+    color: #7CD4F1;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Footer Styles */
+.footer-wrapper {
+    background: black;
+    height: 160px;
+}
+
+.footer-wrapper > .footer-links-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #52545E;
+}
+
+.footer-wrapper > .footer-links-wrapper > .footer-link {
+    border: solid 1px #EEEEEE;
+    padding: 15px 65px;
+}
+
+.footer-wrapper > .footer-links-wrapper > .footer-link a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-wrapper > .footer-links-wrapper > .footer-link b {
+    font-weight: 900;
+}
